@@ -13,6 +13,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlatformVanish.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rA3IxJJwHLGCsObBaxntPBLy22" />
@@ -63,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618404994443</updated>
       <workItem from="1618405023632" duration="5101000" />
+      <workItem from="1618576753271" duration="1718000" />
     </task>
     <servers />
   </component>
@@ -81,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
