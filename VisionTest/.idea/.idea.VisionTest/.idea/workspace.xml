@@ -14,6 +14,14 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlatformVanish.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
+      <option value="$PROJECT_DIR$/Assets/DoorKey.cs" />
+      <option value="$PROJECT_DIR$/Assets/DoorScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/DoorKey2.cs" />
+      <option value="$PROJECT_DIR$/Assets/DoorScript2.cs" />
+      <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DoorKey2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Respawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rA3IxJJwHLGCsObBaxntPBLy22" />
@@ -65,6 +73,8 @@
       <updated>1618404994443</updated>
       <workItem from="1618405023632" duration="5101000" />
       <workItem from="1618576753271" duration="1718000" />
+      <workItem from="1618580573687" duration="500000" />
+      <workItem from="1618770840186" duration="6494000" />
     </task>
     <servers />
   </component>
