@@ -9,6 +9,7 @@ public class Respawn : MonoBehaviour
     
     public Transform player;
     public new Vector3 startpos;
+    [SerializeField] private GameManager manager;
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class Respawn : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            player.transform.position = startpos;
+            manager.respawnPlayer();
         }
             
     }

@@ -12,6 +12,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="DoorKey2.cs" t="Include" />
           <e p="DoorScript2.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="PlatformVanish.cs" t="Include" />
           <e p="PlayerVanish.cs" t="Include" />
           <e p="Respawn.cs" t="Include" />
