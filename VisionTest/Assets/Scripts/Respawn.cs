@@ -8,12 +8,12 @@ public class Respawn : MonoBehaviour
 {
     
     public Transform player;
-    public new Vector3 startpos;
+    public new Vector3 startPos;
     [SerializeField] private GameManager manager;
 
     private void Start()
     {
-        startpos = new Vector3(2, 10, 10);
+        startPos = new Vector3(2, 10, 10);
     }
 
     private void OnTriggerEnter(Collider other)
