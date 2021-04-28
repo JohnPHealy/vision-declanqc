@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &778487511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778487512}
+  m_Layer: 0
+  m_Name: CameraTarget
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778487512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778487511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.44, z: -9.97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4587079912413858996}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1227911439
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +41,7 @@ GameObject:
   - component: {fileID: 1227911440}
   m_Layer: 0
   m_Name: GroundCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +84,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4587079910744756981}
-  m_LocalRotation: {x: 0.086049825, y: -0.0000000042856407, z: 3.7015155e-10, w: 0.99629086}
+  m_LocalRotation: {x: -0.018141463, y: 1e-45, z: -0, w: 0.9998355}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -115,6 +145,7 @@ GameObject:
   - component: {fileID: 4587079911488971842}
   - component: {fileID: 4587079911488971844}
   - component: {fileID: 4587079911488971845}
+  - component: {fileID: 855162135}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -185,6 +216,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &855162135
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587079911488971843}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8208356
+  m_Height: 2.4986584
+  m_Direction: 1
+  m_Center: {x: 0.20705268, y: 0.24932902, z: -0.11378303}
 --- !u!1 &4587079911586126236
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,9 +242,10 @@ GameObject:
   - component: {fileID: 4587079911586126224}
   - component: {fileID: 4587079911586126225}
   - component: {fileID: 4587079911586126238}
+  - component: {fileID: 20234308}
   m_Layer: 0
   m_Name: GFX
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +293,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c8104eae228714428da52bbb0f33a25, type: 2}
+  - {fileID: 2100000, guid: e281f73dbd3a92f48ac45e3cbc327885, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -283,6 +329,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &20234308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587079911586126236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df6e7e460ce07645bdfa5687a031dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  r: {fileID: 4587079911586126225}
+  Eye1: {fileID: 4587079912130000811}
+  Eye2: {fileID: 4587079911488971843}
 --- !u!1 &4587079911716512883
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +368,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4587079911716512883}
-  m_LocalRotation: {x: 0.10410984, y: -0, z: -0, w: 0.99456584}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -759,7 +820,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4587079912114531949}
-  m_LocalRotation: {x: 0.12218325, y: 0.000000017077465, z: -0.0000000021023316, w: 0.9925076}
+  m_LocalRotation: {x: 0.018189475, y: 0.000000016765789, z: -0.000000003868839, w: 0.9998346}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -820,6 +881,7 @@ GameObject:
   - component: {fileID: 4587079912130000810}
   - component: {fileID: 4587079912130000812}
   - component: {fileID: 4587079912130000813}
+  - component: {fileID: 599797251}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -890,6 +952,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &599797251
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587079912130000811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8208356
+  m_Height: 2.4986584
+  m_Direction: 1
+  m_Center: {x: 0.20705268, y: 0.24932902, z: -0.11378303}
 --- !u!1 &4587079912294947079
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,11 +979,11 @@ GameObject:
   - component: {fileID: 4587079912294947129}
   m_Layer: 0
   m_Name: ThirdPerson Camera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4587079912294947078
 Transform:
   m_ObjectHideFlags: 0
@@ -915,7 +991,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4587079912294947079}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.10410984, y: -0, z: -0, w: 0.99456584}
   m_LocalPosition: {x: 0, y: 3.9999998, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -964,7 +1040,7 @@ MonoBehaviour:
     Value: 0.5
     m_SpeedMode: 0
     m_MaxSpeed: 4
-    m_AccelTime: 0.1
+    m_AccelTime: 1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
@@ -988,7 +1064,7 @@ MonoBehaviour:
     Value: 0
     m_SpeedMode: 0
     m_MaxSpeed: 600
-    m_AccelTime: 0.1
+    m_AccelTime: 1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
@@ -1067,6 +1143,8 @@ GameObject:
   - component: {fileID: 4587079912413858996}
   - component: {fileID: 4587079912413858998}
   - component: {fileID: 4587079912413858999}
+  - component: {fileID: 85073963}
+  - component: {fileID: 85073964}
   m_Layer: 0
   m_Name: Third Person Player
   m_TagString: Player
@@ -1088,6 +1166,7 @@ Transform:
   - {fileID: 4587079911586126239}
   - {fileID: 4587079912294947078}
   - {fileID: 1227911440}
+  - {fileID: 778487512}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1123,13 +1202,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4587079912413858998}
   cam: {fileID: 0}
-  speed: 10
+  speed: 15
   gravity: -55
-  jumpHeight: 5
+  jumpHeight: 8
   groundCheck: {fileID: 1227911440}
-  groundDistance: 0.4
+  groundDistance: 0.1
   groundMask:
     serializedVersion: 2
     m_Bits: 64
   UnlockedDoubleJump: 0
   turnSmoothTime: 0.1
+--- !u!54 &85073963
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587079912413858997}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!136 &85073964
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587079912413858997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.9499154
+  m_Height: 2.3503404
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.15738678, z: 0.10529375}

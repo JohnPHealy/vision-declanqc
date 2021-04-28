@@ -18,7 +18,9 @@ public class PlatformVanish : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            r.enabled = false;    
+            r.enabled = false;
+
+
         }
 
     }

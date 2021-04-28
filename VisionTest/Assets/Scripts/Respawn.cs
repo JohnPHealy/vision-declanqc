@@ -5,23 +5,25 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 
+
 {
     
-    public Transform player;
-    public new Vector3 startPos;
-    [SerializeField] private GameManager manager;
+    public GameObject player;
+    public Transform destination;
+  
 
     private void Start()
     {
-        startPos = new Vector3(2, 10, 10);
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.name == player.gameObject.name)
         {
-            manager.respawnPlayer();
-        }
+            print("contact");
+            player.GetComponent<CharacterController>().transform.position = destination.position;
             
+        }
     }
 }

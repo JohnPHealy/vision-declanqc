@@ -10,7 +10,7 @@ public class PlayerVanish : MonoBehaviour
     public GameObject Eye1;
     public GameObject Eye2;
 
-    void Start()
+    void Awake()
     {
         r = gameObject.GetComponent<Renderer>();  
         r.enabled = true;
