@@ -29,6 +29,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanish.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Lift.cs" />
+      <option value="$PROJECT_DIR$/Assets/DoorScript3.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rA3IxJJwHLGCsObBaxntPBLy22" />
@@ -84,7 +86,8 @@
       <workItem from="1618770840186" duration="6494000" />
       <workItem from="1618818744926" duration="2701000" />
       <workItem from="1619427996196" duration="5986000" />
-      <workItem from="1619633655531" duration="2349000" />
+      <workItem from="1619633655531" duration="2578000" />
+      <workItem from="1619786860281" duration="790000" />
     </task>
     <servers />
   </component>
