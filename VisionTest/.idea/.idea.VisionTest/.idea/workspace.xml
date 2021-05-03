@@ -11,7 +11,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Lift.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,12 +24,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorKey2.cs" />
       <option value="$PROJECT_DIR$/Assets/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanish.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Lift.cs" />
       <option value="$PROJECT_DIR$/Assets/DoorScript3.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement_Updated.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rA3IxJJwHLGCsObBaxntPBLy22" />
@@ -87,7 +87,8 @@
       <workItem from="1618818744926" duration="2701000" />
       <workItem from="1619427996196" duration="5986000" />
       <workItem from="1619633655531" duration="2578000" />
-      <workItem from="1619786860281" duration="790000" />
+      <workItem from="1619786860281" duration="1176000" />
+      <workItem from="1619879458724" duration="3183000" />
     </task>
     <servers />
   </component>

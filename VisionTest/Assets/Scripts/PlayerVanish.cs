@@ -9,13 +9,15 @@ public class PlayerVanish : MonoBehaviour
     public Renderer r;
     public GameObject Eye1;
     public GameObject Eye2;
+    public GameObject Eye3;
 
-    void Awake()
+    void Start()
     {
         r = gameObject.GetComponent<Renderer>();  
         r.enabled = true;
         Eye1.SetActive(true);
         Eye2.SetActive(true);
+        Eye3.SetActive(true);
     }
 
     void OnTriggerEnter(Collider other)
@@ -25,6 +27,7 @@ public class PlayerVanish : MonoBehaviour
             r.enabled = false;    
             Eye1.SetActive(false);
             Eye2.SetActive(false);
+            Eye3.SetActive(false);
             
         }
 
@@ -36,5 +39,6 @@ public class PlayerVanish : MonoBehaviour
         r.enabled = true;
         Eye1.SetActive(true);
         Eye2.SetActive(true);
+        Eye3.SetActive(true);
     }
 }
