@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Net.Mime;
 
 public class DoorKey2 : MonoBehaviour
 {
@@ -33,7 +34,9 @@ public class DoorKey2 : MonoBehaviour
     {
         if (inTrigger)
         {
-            GUI.Box(new Rect(0, 60, 200, 25), "Press E to take key");
+            
+            GUI.Box(new Rect(0, 60, 400, 50),"Press E to take key");
+            
         }
     }
 }

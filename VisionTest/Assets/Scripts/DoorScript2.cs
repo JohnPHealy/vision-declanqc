@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System.Security.Cryptography;
 
 public class DoorScript2 : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DoorScript2 : MonoBehaviour
     public bool open;
     public bool close;
     public bool inTrigger;
+    public GameObject wall1;
+    public GameObject wall2;
 
     void OnTriggerEnter(Collider other)
     {
@@ -50,6 +53,8 @@ public class DoorScript2 : MonoBehaviour
             var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, -90.0f, 0.0f),
                 Time.deltaTime * 200);
             transform.rotation = newRot;
+            Destroy(wall1);
+            Destroy(wall2);
         }
         else
         {
@@ -64,17 +69,17 @@ public class DoorScript2 : MonoBehaviour
         {
             if (open)
             {
-                GUI.Box(new Rect(0, 0, 200, 25), "Press E to close");
+                GUI.Box(new Rect(0, 0, 400, 50), "Press E to close");
             }
             else
             {
                 if (doorKey)
                 {
-                    GUI.Box(new Rect(0, 0, 200, 25), "Press E to open");
+                    GUI.Box(new Rect(0, 0, 400, 50), "Press E to open");
                 }
                 else
                 {
-                    GUI.Box(new Rect(0, 0, 200, 25), "Need a key!");
+                    GUI.Box(new Rect(0, 0, 400, 50), "Need a key!");
                 }
             }
         }

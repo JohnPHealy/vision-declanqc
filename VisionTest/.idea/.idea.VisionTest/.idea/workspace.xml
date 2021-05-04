@@ -29,18 +29,18 @@
       <option value="$PROJECT_DIR$/Assets/DoorKey2.cs" />
       <option value="$PROJECT_DIR$/Assets/DoorScript2.cs" />
       <option value="$PROJECT_DIR$/Assets/CameraFollow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DoorKey2.cs" />
       <option value="$PROJECT_DIR$/Assets/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanish.cs" />
       <option value="$PROJECT_DIR$/Assets/Lift.cs" />
       <option value="$PROJECT_DIR$/Assets/DoorScript3.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/JumpAudio.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/JumpAudio.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement_Updated.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DoorKey2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rA3IxJJwHLGCsObBaxntPBLy22" />
@@ -99,7 +99,7 @@
       <workItem from="1619633655531" duration="2578000" />
       <workItem from="1619786860281" duration="1176000" />
       <workItem from="1619879458724" duration="3483000" />
-      <workItem from="1620127723119" duration="8596000" />
+      <workItem from="1620127723119" duration="11241000" />
     </task>
     <servers />
   </component>
