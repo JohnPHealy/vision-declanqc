@@ -22,7 +22,7 @@ public class Respawn : MonoBehaviour
         if (other.gameObject.name == player.gameObject.name)
         {
             print("contact");
-            player.GetComponent<CharacterController>().transform.position = destination.position;
+            player.transform.position = destination.position;
             
         }
     }

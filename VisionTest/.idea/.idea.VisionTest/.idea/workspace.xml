@@ -10,6 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -25,11 +33,13 @@
       <option value="$PROJECT_DIR$/Assets/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanish.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Lift.cs" />
       <option value="$PROJECT_DIR$/Assets/DoorScript3.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerVanish.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/JumpAudio.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/JumpAudio.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement_Updated.cs" />
     </changedPaths>
   </component>
@@ -88,7 +98,8 @@
       <workItem from="1619427996196" duration="5986000" />
       <workItem from="1619633655531" duration="2578000" />
       <workItem from="1619786860281" duration="1176000" />
-      <workItem from="1619879458724" duration="3183000" />
+      <workItem from="1619879458724" duration="3483000" />
+      <workItem from="1620127723119" duration="8596000" />
     </task>
     <servers />
   </component>

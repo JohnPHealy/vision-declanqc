@@ -25,11 +25,14 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
     
     public float turnSmoothTime = 0.1f;
     private float turnSmoothVelocity;
-    private Animator myAnim;
+    public Animator myAnim;
+    public AudioSource Jump;
+    
+
 
     private void Start()
     {
-        myAnim.GetComponentInChildren<Animator>();
+        myAnim.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -49,7 +52,7 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
-           
+
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity,
                 turnSmoothTime);
@@ -58,16 +61,13 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * (speed * Time.deltaTime));
         }
-
-        if (Input.GetKeyDown("w"))
-        {
-            myAnim.SetBool("IsRunning", true);
-        }
+        
         
 
         if (Input.GetKeyDown("space") && isGrounded == true)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+
         }
         else if (Input.GetKeyDown("space") && CanDoubleJump == true && UnlockedDoubleJump == true)
         {
@@ -82,6 +82,20 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
         
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-    }
+
+        if (direction.magnitude > 0.1f)
+        {
+            myAnim.SetBool("IsRunning", true);
+        }
+        else
+        {
+            myAnim.SetBool("IsRunning", false);
+        }
+
+ 
+    
+
+}
+
 }
   

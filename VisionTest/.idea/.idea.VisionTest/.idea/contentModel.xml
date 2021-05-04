@@ -13,6 +13,7 @@
           <e p="DoorKey2.cs" t="Include" />
           <e p="DoorScript2.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="JumpAudio.cs" t="Include" />
           <e p="Lift.cs" t="Include" />
           <e p="PlatformVanish.cs" t="Include" />
           <e p="PlayerVanish.cs" t="Include" />
