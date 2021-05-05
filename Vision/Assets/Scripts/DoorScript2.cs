@@ -69,16 +69,19 @@ public class DoorScript2 : MonoBehaviour
         {
             if (open)
             {
+                GUI.skin.box.fontSize = 30;
                 GUI.Box(new Rect(0, 0, 400, 50), "Press E to close");
             }
             else
             {
                 if (doorKey)
                 {
+                    GUI.skin.box.fontSize = 30;
                     GUI.Box(new Rect(0, 0, 400, 50), "Press E to open");
                 }
                 else
                 {
+                    GUI.skin.box.fontSize = 30;
                     GUI.Box(new Rect(0, 0, 400, 50), "Need a key!");
                 }
             }

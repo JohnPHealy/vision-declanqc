@@ -13,7 +13,6 @@ public class Exit : MonoBehaviour
             if (exit.activeSelf == true)
             {
                 Application.Quit();
-                Debug.Log("quit");
             }
       
         }

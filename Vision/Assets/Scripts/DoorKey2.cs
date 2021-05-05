@@ -34,7 +34,7 @@ public class DoorKey2 : MonoBehaviour
     {
         if (inTrigger)
         {
-            
+            GUI.skin.box.fontSize = 30;
             GUI.Box(new Rect(0, 60, 400, 50),"Press E to take key");
             
         }
