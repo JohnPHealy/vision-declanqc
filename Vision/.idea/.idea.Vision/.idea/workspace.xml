@@ -22,6 +22,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UpgradeTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorKey2.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Finish.cs" />
+      <option value="$PROJECT_DIR$/Assets/Menu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMovement_Updated.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1s7LB3RhD6fvmjs1C6g8pzqzR50" />
@@ -79,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620218546942</updated>
-      <workItem from="1620218554415" duration="9490000" />
+      <workItem from="1620218554415" duration="9558000" />
+      <workItem from="1620304740241" duration="3479000" />
     </task>
     <servers />
   </component>
@@ -98,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

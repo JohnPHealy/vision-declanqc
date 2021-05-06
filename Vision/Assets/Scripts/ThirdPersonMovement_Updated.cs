@@ -27,6 +27,7 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
     private float turnSmoothVelocity;
     public Animator myAnim;
     public AudioSource Jump;
+    public GameObject text;
     
 
 
@@ -67,6 +68,7 @@ public class ThirdPersonMovement_Updated : MonoBehaviour
         if (Input.GetKeyDown("space") && isGrounded == true)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            Destroy(text);
 
         }
         else if (Input.GetKeyDown("space") && CanDoubleJump == true && UnlockedDoubleJump == true)
